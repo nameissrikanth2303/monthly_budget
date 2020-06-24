@@ -531,9 +531,6 @@ updatePercentage();
  return{
 
    init:function(){
-  
-    console.log("WElcome'");
-
     UIctrl.displayBudget({budget:0,
       totalInc:0,
       totalexp:0,
