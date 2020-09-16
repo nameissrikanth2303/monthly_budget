@@ -1,119 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-
-  
-    
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- materialize -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-     <!-- fonts -->
-     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Staatliches&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
 
-     <!-- icons -->
-     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <!-- style_m -->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-     
- <!-- project -->
- <link href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+    <!-- icons -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!-- style_m -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
 
+    <!-- project -->
+    <link
+      href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
 
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css" />
 
+    <title>Budgety</title>
+  </head>
+  <body>
+    <section
+      class="myheading"
+      style="background-image: url('images/banner.jpg ')"
+    >
+      <header class="head col l12 m12 s12">Budget</header>
+      <div class="banner center container">
+        <div class="time col l12 s12">
+          Aviailable funds as on <span class="month"> june 19</span>
+        </div>
+        <div class="totaldis col l12 s12 card-panel center">
+          <div><span class="left" style="margin-top: -8px">Total</span></div>
+          <div class="right distotal" style="margin-top: -8px">12000</div>
+        </div>
+        <div class="incomedis col l12 s12 card-panel">
+          <div><span class="left" style="margin-top: -8px">+Income</span></div>
 
-         <!-- custom css -->
-          <link rel="stylesheet" href="css/style.css">
-   
-
-          <title>Budget</title>
-
-
-
- 
-
-</head>
-<body>
-   
-<section class="myheading" style="background-image: url('images/banner.jpg ');">
-   <header class="head col l12 m12 s12">Budget</header>
-<div class="banner center container">
-   
-
-   <div class="time col l12 s12"> Aviailable funds as on <span class="month"> june 19</span></div>
-   <div class="totaldis  col l12 s12 card-panel center">
-      <div><span class="left" style="margin-top: -8px;">Total</span></div> 
-      <div class="right distotal" style="margin-top:-8px ;">12000</div>
-    </div>
-   <div class="incomedis  col l12 s12 card-panel">
-    <div><span class="left " style="margin-top: -8px;">+Income</span></div>
-
-     <div class="right disincome" style="margin-top:-8px;">+1200</div>
-
-</div>
-   <div class="expendis col l12 s12 card-panel">
-    <div><span class="left" style="margin-top: -8px;">-expences</span></div>
-    <div class="right disper   item__percentage1" style="margin-right:-15px; margin-left: 10px;">30%</div>
-  <div class="right disexp" style="margin-top:-8px;">-1200 </div>
-    
-   </div>
-
-   
-   
-
-
-
-
-</div>
-</section>
-
-<section class="indata">
-
-<div class="row container center">
-   <div class="col l3 m3 s12 add"  > 
-
-      
-
-         <select class="inputtype">
-          <option   value="inc" style="font-family: Roboto Mono;">+ income</option>
-           <option value="exp" style="font-family: Roboto Mono;">- expencese</option>
-           
-         </select>
-       
-   </div>
-
-   <div class="col  l3 m2 s12 add_des"> 
-
-      <input type="text" class="add__des"  placeholder="Add description" style="font-family: Roboto Mono;">
-   </div>
-
-   <div class="col l3  m2 s12 add_value " style="width: 80px;"> 
-
-      <input type="number"  class ='add__value'placeholder="Value" style="font-family:Roboto Mono; font-size: small;">
-
+          <div class="right disincome" style="margin-top: -8px">+1200</div>
+        </div>
+        <div class="expendis col l12 s12 card-panel">
+          <div>
+            <span class="left" style="margin-top: -8px">-expences</span>
+          </div>
+          <div
+            class="right disper item__percentage1"
+            style="margin-right: -15px; margin-left: 10px"
+          >
+            30%
+          </div>
+          <div class="right disexp" style="margin-top: -8px">-1200</div>
+        </div>
       </div>
+    </section>
 
-      <div class="col  l3 m2 s12 add_btn"> 
+    <section class="indata">
+      <div class="row container center">
+        <div class="col l3 m3 s12 add">
+          <select class="inputtype">
+            <option value="inc" style="font-family: Roboto Mono">
+              + income
+            </option>
+            <option value="exp" style="font-family: Roboto Mono">
+              - expencese
+            </option>
+          </select>
+        </div>
 
-         <button class="addnew" style="font-family: Roboto Mono;"> Add</button>
-         </div>
-   </div>
-</section>
-<section class="list container row">
+        <div class="col l3 m2 s12 add_des">
+          <input
+            type="text"
+            class="add__des"
+            placeholder="Add description"
+            style="font-family: Roboto Mono"
+          />
+        </div>
 
+        <div class="col l3 m2 s12 add_value" style="width: 80px">
+          <input
+            type="number"
+            class="add__value"
+            placeholder="Value"
+            style="font-family: Roboto Mono; font-size: small"
+          />
+        </div>
 
+        <div class="col l3 m2 s12 add_btn">
+          <button class="addnew" style="font-family: Roboto Mono">Add</button>
+        </div>
+      </div>
+    </section>
+    <section class="list container row">
+      <div class="incoming col l6 m6 s12">
+        <div class="income">
+          <h2 class="icome__title">Income</h2>
 
-
-<div class=" incoming col l6 m6 s12">      
-
-      <div class="income">
-         <h2 class="icome__title">Income</h2>
-         
-         <div class="income__list">
-            
-             
-              <!-- <div class="item clearfix" id="inc-0">
+          <div class="income__list">
+            <!-- <div class="item clearfix" id="inc-0">
                  <div class="item__description"></div>
                  <div class="right clearfix">
                      <div class="item__value"></div>
@@ -132,27 +132,15 @@
                      </div>
                  </div>
              </div>  -->
-  
+          </div>
+        </div>
+      </div>
+      <div class="outgoing col l6 m6 s12">
+        <div class="expenses">
+          <h2 class="expenses__title">Expenses</h2>
 
-            
-
-
-
-
-
-
-   </div>
-</div>
-</div>
-  <div class=" outgoing col l6 m6 s12">      
-
-      <div class="expenses ">
-         <h2 class="expenses__title">Expenses</h2>
-         
-         <div class="expenses__list">
-            
-             
-             <!-- <div class="item clearfix" id="exp-0">
+          <div class="expenses__list">
+            <!-- <div class="item clearfix" id="exp-0">
                  <div class="item__description"></div>
                  <div class="right clearfix">
                      <div class="item__value"></div>
@@ -172,45 +160,26 @@
                      </div>
                  </div>
              </div> -->
-            
-             
-         </div>     
-
-       
-
-
-
-
-
-
-
-
-   
+          </div>
+        </div>
       </div>
+    </section>
 
-</div>
-</section>
-   
-
-
-    
-
-
-
-
-
-
-
-    
-
-<!-- jquery -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.js" integrity="sha256-DrT5NfxfbHvMHux31Lkhxg42LY6of8TaYyK50jnxRnM=" crossorigin="anonymous"></script>
-<!-- matrilize js  -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-<!-- custom js -->
-<script src="js/app.js"></script>
-<script>  $(document).ready(function(){
-    $('select').formSelect();
-  });</script>
-</body>
+    <!-- jquery -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.js"
+      integrity="sha256-DrT5NfxfbHvMHux31Lkhxg42LY6of8TaYyK50jnxRnM="
+      crossorigin="anonymous"
+    ></script>
+    <!-- matrilize js  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- custom js -->
+    <script src="js/app.js"></script>
+    <script src="./testing.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("select").formSelect();
+      });
+    </script>
+  </body>
 </html>
