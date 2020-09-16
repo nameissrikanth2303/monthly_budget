@@ -1,7 +1,11 @@
 * {
   margin: 0;
   padding: 0;
+<<<<<<< HEAD
   font-family: serif Roboto Mono;
+=======
+  font-family: Roboto Mono;
+>>>>>>> feature/devdev
 }
 
 .myheading {
@@ -9,7 +13,11 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+<<<<<<< HEAD
   padding-bottom: 15px;
+=======
+  padding-bottom: 20px;
+>>>>>>> feature/devdev
 }
 .head {
   font-size: 5rem;
